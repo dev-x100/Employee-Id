@@ -18,5 +18,10 @@
 - emp. sign
 - Boss sign.
 
-
+# Folder Structure
+- asset
+    - img
+    - js
+    - css (BEM convention)
+- index.html
 
