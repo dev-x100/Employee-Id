@@ -24,4 +24,3 @@
     - js
     - css (BEM convention)
 - index.html
-
