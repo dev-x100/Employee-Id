@@ -1,10 +1,8 @@
 :root {
   --light: #f6f6f9;
   --dark: #000000;
-
   --primary: #f39101;
   --secondary: #000f28;
-
   /* other stuffs.... */
   --grey: #eee;
   --dark-grey: #aaaaaa;
@@ -20,9 +18,94 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Kameron", serif;
 }
-html,
+
+a {
+  text-decoration: none;
+}
+
+html {
+  overflow-x: hidden;
+}
 body {
+  background: var(--grey);
+  overflow-x: hidden;
+}
+
+#main__backside {
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+}
+.backSite__wrapper {
+  height: 322px;
+  width: 204px;
+  background-color: var(--light);
+  position: relative;
+  border-radius: 7px;
+}
+.backSite__wrapper__shape--1 {
+  position: relative;
   width: 100%;
-  height: 100%;
+  height: 39%;
+}
+.backSite__wrapper__shape--1__logotitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -3.054rem;
+  z-index: 11;
+}
+.backSite__wrapper__shape--1__logotitle h1 {
+  font-size: 0.875rem;
+}
+
+.backSite__wrapper__shape--1__logotitle p {
+  font-size: 0.5rem;
+  color: var(--primary);
+  margin-left: 3px;
+  margin-bottom: 5px;
+}
+
+.backSite__wrapper__discribction {
+  width: 100%;
+  height: 43%;
+}
+
+.backSite__wrapper__discribction li {
+  font-size: 0.5rem;
+  padding: 8px;
+  margin-left: 6px;
+  text-align: start;
+}
+.backSite__wrapper__discribction__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.backSite__wrapper__discribction__container .qr {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+.backSite__wrapper__discribction__signature {
+  display: flex;
+  justify-content: space-around;
+}
+
+.backSite__wrapper__discribction__signature img {
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 12px;
+}
+
+.backSite__wrapper__discribction__signature p {
+  font-weight: 500;
+  font-size: 0.6rem;
 }
