@@ -1,0 +1,27 @@
+:root {
+  --light: #f6f6f9;
+  --dark: #000000;
+
+  --primary: #f39101;
+  --secondary: #000f28;
+
+  /* other stuffs.... */
+  --grey: #eee;
+  --dark-grey: #aaaaaa;
+  --danger: #d32f2f;
+  --light-danger: #fecdd3;
+  --warning: #fbc02d;
+  --light-warning: #fff2c6;
+  --success: #388e3c;
+  --light-success: #bbf7d0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
