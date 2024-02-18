@@ -25,8 +25,8 @@
     - css (BEM convention)
 - index.html
 
-## master :- boiler plate code
-## main :- updated code 
+## main :- boiler plate code
+## master :- updated code 
 ## individual features branch :- new small features
 
 
