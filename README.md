@@ -1,6 +1,13 @@
 # Employee-Id
 
+# HTML flow =>
+
+container -> card**front & card**back
+card**front -> card**front**fg & card**back**bg
+card**back -> card**back**fg && card**back**bg
+
 # content needed
+
 - Name
 - Position
 - Id. No.
@@ -12,6 +19,7 @@
 - Blood group
 
 # content back
+
 - comp. logo
 - tag line
 - paragraph
@@ -19,16 +27,11 @@
 - Boss sign.
 
 # Folder Structure
+
 - asset
-    - img
-    - js
-    - css (BEM convention)
+  - img
+  - js
+  - css (BEM convention)
 - index.html
 
-## main :- boiler plate code
-## master :- updated code 
-## individual features branch :- new small features
-
-
-
-
+## Branches: Release, Development, (other person specific branches...)
