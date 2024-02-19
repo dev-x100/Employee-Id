@@ -16,8 +16,8 @@
   --light-success: #bbf7d0;
 
   /*card dimensions*/
-  --card-width:12.75rem;
-  --card-height:20.125rem;
+  --card-width:18rem;
+  --card-height:30rem;
 }
 * {
   margin: 0;
