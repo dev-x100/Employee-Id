@@ -14,6 +14,10 @@
   --light-warning: #fff2c6;
   --success: #388e3c;
   --light-success: #bbf7d0;
+
+  /*card dimensions*/
+  --card-width:12.75rem;
+  --card-height:20.125rem;
 }
 * {
   margin: 0;
