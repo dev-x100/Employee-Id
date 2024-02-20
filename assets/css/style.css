@@ -16,8 +16,8 @@
   --light-success: #bbf7d0;
 
   /*card dimensions*/
-  --card-width:18rem;
-  --card-height:30rem;
+  --card-width: 18rem;
+  --card-height: 30rem;
 }
 * {
   margin: 0;
@@ -30,7 +30,7 @@ body {
   height: 100%;
 }
 
-.container{
+.container {
   width: max-content;
   height: 100vh;
   background-color: var(--light);
@@ -40,3 +40,85 @@ body {
   flex-direction: row;
 }
 
+.card__back {
+  width: var(--card-width);
+  height: var(--card-height);
+  position: relative;
+  margin: auto;
+}
+.card__back__bg {
+  width: 100%;
+  height: 100%;
+}
+
+.card__back__bg__img1 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.card__back__bg__img2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.card__back__fg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__back__fg--heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.card__logo {
+  height: 2.563rem;
+}
+.card__back__fg--heading h1 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: var(--secondary);
+}
+.card__back__fg--heading p {
+  font-size: 1rem;
+  padding: 4px;
+  font-weight: 500;
+  color: var(--primary);
+  text-align-last: center;
+}
+
+.card__back__fg_discuction {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__back__fg_discuction .card__back__fg--qr {
+  width: 5rem;
+  height: 5rem;
+}
+
+.card__back__fg_discuction__signature {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card__back__fg_discuction__signature img {
+  width: 2.723rem;
+  height: 2.723rem;
+  object-fit: cover;
+  object-position: center;
+  margin-left: 12px;
+}
