@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
     <base href="./assets/images/" />
     <title>Employee Id</title>
   </head>
@@ -11,26 +17,38 @@
     <div class="container">
       <div class="card__front">
         <!-- background code  -->
-          <div class="card__front__bg">
-            <img class="card__front__bg__img1" src="shape_1.png" alt="upper-image">
-            <img class="card__front__bg__img2" src="Shape_2.png" alt="lower_image">
+        <div class="card__front__bg">
+          <img
+            class="card__front__bg__img1"
+            src="shape_1.png"
+            alt="upper-image"
+          />
+          <img
+            class="card__front__bg__img2"
+            src="Shape_2.png"
+            alt="lower_image"
+          />
+        </div>
+        <!-- forground code  -->
+        <div class="card__front__fg">
+          <img
+            src="profile.png"
+            alt="card-img"
+            class="card__front__fg__profile image-round"
+          />
+          <h2 id="card__front__title">JOHN DOE</h2>
+          <h3 id="card__front__position">DESIGNER</h3>
+          <div class="card__front__content">
+            <p id="emp__id">ID No: 1234567890</p>
+            <p id="emp__dob">D.O.B: dd/mm/yy</p>
+            <p id="emp__bg">Blood Group: A+</p>
+            <p id="emp__phone">phone: 9876543210</p>
+            <p id="emp__email">E-mail: 100x@web.dev</p>
+            <p id="emp__address">Address: Dharmagarh</p>
+            <p id="emp__join">Join: dd/mm/yy</p>
           </div>
-          <!-- forground code  -->
-          <div class="card__front__fg">
-            <img src="profile.png" alt="card-img" class="card__front__fg__profile image-round">
-            <h2 id="card__front__title">JOHN DOE</h2>
-            <h3 id="card__front__position">DESIGNER</h3>
-            <div class="card__front__content">
-                <p id="emp__id">ID No:  1234567890</p>
-                <p id="emp__dob">D.O.B:  dd/mm/yy</p>
-                <p id="emp__bg">Blood Group:  A+</p>
-                <p id="emp__phone">phone:  9876543210</p>
-                <p id="emp__email">E-mail: 100x@web.dev</p>
-                <p id="emp__address">Address: Dharmagarh</p>
-                <p id="emp__join">Join: dd/mm/yy</p>
-            </div>
-          </div>
-       </div>
+        </div>
+      </div>
       <main class="card__back">
         <!-- Om prakash's code  -->
         <div class="card__back__bg">
@@ -82,6 +100,30 @@
         </div>
       </main>
     </div>
+
+    <section id="certificate">
+      <div class="border1">
+        <div class="border2">
+          <div class="certificate__container">
+            <div class="certificate__container__header">
+              <h1>100 x Dev</h1>
+              <h2>CERTIFICATE OF ACHIEVEMENT</h2>
+              <p>This certificate is proudly presented to</p>
+            </div>
+
+            <div class="certificate__container__main">
+              <h1>Name Surname</h1>
+              <p>
+                We certify that this user has successfully generated a
+                certificate using PikMaker. If you like, you can generate your
+                own certificates using PikMaker.
+              </p>
+              <p class="p__button">By the 100 x Dev team</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="./assets/javaScript/script.js"></script>
   </body>
