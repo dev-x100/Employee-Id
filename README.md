@@ -1,3 +1,25 @@
+# Folder structure
+==========================
+./ root
+
+- assets
+  - img
+  - svg
+  - json
+  -ico
+  -font
+- css
+  - utility {button,input,radio}
+  - style.css
+- js
+  - script.js
+  - app.js // request specific
+  - utility {input,submit}
+- index.html
+- manifest.json
+ ===============
+
+
 # Employee-Id
 
 # HTML flow =>
